@@ -1,0 +1,43 @@
+package com.syntax.class03;
+
+public class BasedMonth {
+
+	public static void main(String[] args) {
+              //task1
+		int month = 12;
+		
+		if (month==1) {
+			System.out.println("Last month was January");
+		}else if(month==2) {
+			System.out.println("This month is February");
+		}else if(month==3) {
+			System.out.println("Next month will be March");
+		}else if(month==4) {
+			System.out.println("Next April");
+		}else if (month==5) {
+			System.out.println("Next May ");
+		}else if (month==6) {
+			System.out.println("Next June");
+		}else if (month==7) {
+			System.out.println("Next July");
+		}else if (month==8) {
+			System.out.println("Next Augst");
+		}else if (month==9) {
+			System.out.println("My birhday month September");
+		}else if (month==10) {
+			System.out.println("Next October");
+		}else if (month==11) {
+			System.out.println("Next November");
+		}else if (month==12) {
+			System.out.println("Next December");
+		}
+		System.out.println("It is not correct month number");
+		
+		
+		//Task2 
+		
+
+		
+	}
+
+}
