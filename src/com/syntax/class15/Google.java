@@ -19,6 +19,7 @@ public class Google {
 		emp1.work();
 		emp1.getPaid();
 		emp1.attendMeeting();
+		
 		System.out.println();
 		Google emp2=new Google(); 
 		emp2.id=3482;
