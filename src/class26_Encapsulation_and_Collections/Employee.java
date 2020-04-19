@@ -24,9 +24,15 @@ public class Employee {
 		
 	}
 	public void setAge(int age) {//setters
-		this.age = age;
+		if (age >1) {
+			this.age = age;
+		}
+		
 	}
 	public void setSalary(double salary) {//setters
-		this.salary = salary;
+		if(salary>50) {
+			this.salary = salary;
+		}
+		
 	}
 }

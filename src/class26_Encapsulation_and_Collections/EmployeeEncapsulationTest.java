@@ -8,10 +8,11 @@ public class EmployeeEncapsulationTest {
 		emp.setName("Jemka");//eger 3 harpdan az bolsa null cykaryar
 		System.out.println(emp.getName());
 		
+		emp.setAge(22);
+		System.out.println(emp.getAge());
 		
-		
-		
-		
+		emp.setSalary(40000);
+		System.out.println(emp.getSalary());
 		
 		
 		
