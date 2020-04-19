@@ -42,7 +42,45 @@ public class Notes {
 	 * veg.add("Cocumber");
 	 * LinkedHashSet<>();->output:[Carrot, Potato, Cocumber, Avocado]//yerbe yer cykarmak ucin LinkedHastSet ulanmaly
 	 * HashSet<>();---->OutPut: [Potato, Carrot, Cocumber, Avocado]//heryerden cykarjak bolsanam HashSet
-	 * TreeSet<>();-->OutPut: 
+	 * TreeSet<>();-->OutPut:
+	 * 
+	 * List vs Set?
+	 * List is an ordered collection that has duplicates elements/objects while set does not allow duplicates 
+	 * List has 3 implementation classess: ArrayList , LinkedList , Vector;
+	 * Set has 3 implementation classess: HashSet, LinkedHashSet, TreeSet;
+	 * 
+	 * In the Set --> get methos is not available; 
+	 * 
+	 * How to remove duplicate elements --> convert to set 
+	 * How to retrieve single elements from set-->convert to list
+	 * 
+	 * 
+	 * array is a utility class that have mothods to work with aarrays --> Arrays.sort(array);
+	 * 
+	 * to sort elements of any collection
+	 * collections is a utility calss that have methods to work with collections --> Collections.sort(list);
+	 * 
+	 * --------------------------------------------------------------------------------------------------
+	 * 
+	 * Map--> is an object tht stores group of objects as key an value pair;
+	 * key+value= Entry
+	 * Map is collection on entry objects
+	 * 
+	 * Map is not a collection !!!!!!!!!!!!!!!!
+	 * 
+	 * Map is an iterface. 
+	 * 
+	 *  Map has 4 implementstion method
+	 *   1.HashMap
+	 *   2.LinkedHashMap
+	 *   3.TreeMap
+	 *   4.HashTable
+	 *   
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
 	 * 
 	 */
 }
