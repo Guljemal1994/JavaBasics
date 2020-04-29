@@ -35,6 +35,7 @@ public class MoreMapWays {
                
         System.out.println("==>how to get all keys 2nd way<==");
 		System.out.println("--getting keys using iterator----");
+		
 		Iterator<Integer> kIt = keys.iterator();
 		while (kIt.hasNext()) {
 			int key = kIt.next();

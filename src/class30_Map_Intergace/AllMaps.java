@@ -76,7 +76,7 @@ public class AllMaps {
 	while(it.hasNext()) {
 		System.out.println("Values--> " + it.next());
 	}
-	
+	 
 	
 	
 	}

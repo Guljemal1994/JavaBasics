@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-public class RemoveAllElements {
+public class AselsInterviewQus {
 
 	public static void main(String[] args) {
 		
@@ -48,7 +48,9 @@ public class RemoveAllElements {
 		//to sort elements of any collection
 		System.out.println("-------to sort elements of any collection---------");
 		Collections.sort(lt);
-		System.out.println(lt);
+		Collections.max(lt);
+		Collections.min(lt);
+		System.out.println(lt); 
 		
 		
 		

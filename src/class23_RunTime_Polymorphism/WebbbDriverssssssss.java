@@ -1,27 +1,27 @@
 package class23_RunTime_Polymorphism;
 
-public class WebDriver {
+public class WebbbDriverssssssss {
 
 	public void open(){
 		System.out.println("Opening browser");
 	}
 }
 
-class FirefoxDriver extends WebDriver{
+class FirefoxDriver extends WebbbDriverssssssss{
 	
 	public void open() {
 		System.out.println("Opening FireFox browser");
 	}
 }
 
-class ChromeDriver extends WebDriver{
+class ChromeDriver extends WebbbDriverssssssss{
 	
 	public void oper() {
 		System.out.println("Opening chrome browser");
 	}
 }
 
-class InternetExplorerDriver extends WebDriver{
+class InternetExplorerDriver extends WebbbDriverssssssss{
 	
 	public void open() {
 		System.out.println("Opening ie broser");
