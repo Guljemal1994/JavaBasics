@@ -20,7 +20,6 @@ public static void main(String[] args) throws IOException {
   String b = pro.getProperty("browser");
   if(b.equals("Chrome")) {
 	  WebDriverTasnk dr = new WebDriverTasnk();
-	  dr.ge
   }
   
   

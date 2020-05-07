@@ -18,8 +18,10 @@ public class ReadEcel {
 
 		// get an Object of Workbook type
 		Workbook book = new XSSFWorkbook(fis);
-		Sheet sheet = book.getSheet("Sheet1");
+		Sheet sheet = book.getSheet("TestData");
 
+		sheet.getRow(0).createCell(5).setCellValue("Country");
+		
 		// we need to find numbers of rows
 		int rows = sheet.getPhysicalNumberOfRows();
 
