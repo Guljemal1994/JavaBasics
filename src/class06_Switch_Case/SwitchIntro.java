@@ -6,7 +6,7 @@ public class SwitchIntro {
 		
 		
 		
-		int day=22 ;
+		int day=2 ;
 		String dayName;
 		
 		if (day==1) {
@@ -44,7 +44,7 @@ public class SwitchIntro {
 		break;
 		case 5:
 			today="Friday";
-		break;
+		//break;
 		case 6:
 			today="Saturday";
 		break;
